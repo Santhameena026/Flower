@@ -15,7 +15,7 @@ body{
 header{
     display:flex;
     background-color: rgb(2, 15, 20);
-
+    flex-wrap:wrap;
 }
 span{
     color:white;
@@ -27,6 +27,7 @@ span{
     color:pink;
     text-transform: uppercase;
     letter-spacing: 4px;
+    min-width: 700px;
 }
 nav{
     flex:1;
@@ -46,6 +47,7 @@ li a{
     padding-top:15px;
     font-size:1.4em;
     font-weight: bold;
+    min-width: 57px;
 }
 li a:hover{
     cursor:pointer;
@@ -104,4 +106,23 @@ li a:hover{
     color: rgb(138, 19, 43);
        
  }
+ @media all and (max-width:925px){
+    header{
+        background-color: ;
+    }
+    nav li{
+       text-align: center; 
+       margin-top:3px;
+       margin-bottom: 5px;
+    }
+    .logo div{
+        
+       width:195px;
+       height:2px; 
+       background-color:white
+    }
+}
+    
+
+
            
